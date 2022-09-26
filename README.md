@@ -8,7 +8,7 @@
 
 Let's consider a simplified version of the classic "FizzBuzz" logic problem:
 
-- Given an integer as a parameter.
+- Given an integer as a parameter:
   - If the integer is divisible by 3, return "Fizz".
   - If the integer is divisible by 5, return "Buzz".
   - If the integer is divisible by 3 and 5, return "FizzBuzz".
@@ -20,10 +20,13 @@ Let's consider some code that looks like it should solve this problem:
 public class FizzBuzz {
     public String fizzBuzzString(int number) {
         if (number % 3 == 0) {
+            // if divisible by 3
             return "Fizz";
         } else if (number % 5 == 0) {
+            // if divisible by 5
             return "Buzz";
         } else if ((number % 3 == 0) && (number % 5 == 0)) {
+            // if divisible by both 3 and 5
             return "FizzBuzz";
         }
         else {
