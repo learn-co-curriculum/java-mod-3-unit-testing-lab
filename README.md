@@ -7,6 +7,7 @@
 ## Introduction
 
 Let's consider a simplified version of the classic "FizzBuzz" logic problem:
+
 - Given an integer as a parameter.
   - If the integer is divisible by 3, return "Fizz".
   - If the integer is divisible by 5, return "Buzz".
@@ -43,4 +44,3 @@ given the following steps:
 3. Test the "divisible by 5 only" case - this should also pass.
 4. Test the "divisible by 3 and 5" case - _this will not pass_.
 5. Fix the logic in the solution so that all 4 test cases pass.
-
